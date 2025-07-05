@@ -1,52 +1,76 @@
-# Astro Starter Kit: Basics
+# Portafolio de Indira
 
-```sh
-npm create astro@latest -- --template basics
+Este es un portafolio personal desarrollado con Astro, diseñado para mostrar habilidades en ingeniería mecánica, diseño de stickers y experiencia en computadoras.
+
+## Tecnologías Utilizadas
+
+- [Astro](https://astro.build/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+## Características
+
+- Diseño responsive
+- Secciones para mostrar experiencia y proyectos
+- Formulario de contacto con enlace a WhatsApp
+- Optimizado para SEO
+
+## Instrucciones para Desplegar en GitHub Pages
+
+### Paso 1: Configuración del Repositorio
+
+1. Asegúrate de que tu repositorio esté configurado correctamente en GitHub.
+2. Verifica que el nombre del repositorio coincida con el configurado en `astro.config.mjs` en la propiedad `base`.
+
+### Paso 2: Construir y Desplegar
+
+1. Ejecuta el comando de construcción para generar los archivos estáticos:
+
+```bash
+npm run build
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+2. Despliega el sitio en GitHub Pages utilizando el comando:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```bash
+npm run deploy
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### Paso 3: Configuración de GitHub Pages
 
-## 🧞 Commands
+1. Ve a la configuración de tu repositorio en GitHub (Settings).
+2. Navega a la sección "Pages".
+3. En "Source", selecciona la rama "gh-pages" y la carpeta "/ (root)".
+4. Guarda los cambios.
 
-All commands are run from the root of the project, from a terminal:
+### Paso 4: Verificación
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. Espera unos minutos para que GitHub Pages procese los cambios.
+2. Visita tu sitio en: `https://[tu-nombre-de-usuario].github.io/Portafolio-Indira/`
 
-## 👀 Want to learn more?
+## Desarrollo Local
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/[tu-nombre-de-usuario]/Portafolio-Indira.git
+cd Portafolio-Indira
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+4. Abre tu navegador en `http://localhost:4321`
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.

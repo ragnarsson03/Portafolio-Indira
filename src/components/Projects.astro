@@ -1,0 +1,136 @@
+---
+---
+
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2>Mis Proyectos</h2>
+        <p class="section-description">Una muestra de mis diseños y trabajos recientes</p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                        <rect width="200" height="200" fill="#F8B195"/>
+                        <circle cx="100" cy="100" r="50" fill="#F67280"/>
+                        <path d="M70 100C70 100 85 120 100 120C115 120 130 100 130 100" stroke="#355C7D" stroke-width="5" stroke-linecap="round"/>
+                        <circle cx="80" cy="80" r="10" fill="#355C7D"/>
+                        <circle cx="120" cy="80" r="10" fill="#355C7D"/>
+                    </svg>
+                </div>
+                <h3>Stickers Emocionales</h3>
+                <p>Serie de stickers que expresan diferentes emociones para uso en aplicaciones de mensajería.</p>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                        <rect width="200" height="200" fill="#C06C84"/>
+                        <path d="M50 150L100 50L150 150H50Z" fill="#6C5B7B"/>
+                        <circle cx="100" cy="100" r="30" fill="#355C7D"/>
+                    </svg>
+                </div>
+                <h3>Diseños Geométricos</h3>
+                <p>Colección de stickers con patrones geométricos modernos para decoración y personalización.</p>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                        <rect width="200" height="200" fill="#6C5B7B"/>
+                        <circle cx="100" cy="100" r="70" fill="#355C7D"/>
+                        <path d="M60 100C60 77.9086 77.9086 60 100 60C122.091 60 140 77.9086 140 100C140 122.091 122.091 140 100 140C77.9086 140 60 122.091 60 100Z" stroke="#F8B195" stroke-width="5"/>
+                        <path d="M80 80L120 120M120 80L80 120" stroke="#F67280" stroke-width="5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Stickers Corporativos</h3>
+                <p>Diseños personalizados para empresas, incluyendo logos y elementos de marca para uso promocional.</p>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                        <rect width="200" height="200" fill="#355C7D"/>
+                        <path d="M40 160C40 160 70 100 100 100C130 100 160 160 160 160H40Z" fill="#F67280"/>
+                        <circle cx="100" cy="70" r="30" fill="#F8B195"/>
+                    </svg>
+                </div>
+                <h3>Personajes Ilustrados</h3>
+                <p>Serie de personajes originales ilustrados para stickers coleccionables y merchandising.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .projects-section {
+        padding: 4rem 1rem;
+        background-color: #f3f4f6;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: var(--color-text);
+    }
+    
+    .section-description {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto 3rem auto;
+        color: #4b5563;
+    }
+    
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
+    .project-card {
+        background-color: white;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project-image {
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .project-svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+        margin: 1rem;
+        color: var(--color-text);
+    }
+    
+    p {
+        color: #4b5563;
+        margin: 0 1rem 1rem 1rem;
+        line-height: 1.6;
+    }
+    
+    @media (max-width: 768px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
